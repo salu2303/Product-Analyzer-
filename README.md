@@ -47,3 +47,12 @@ Follow these steps to run the project locally:
 
    ```bash
    git clone https://github.com/your-username/serverless-product-analyser.git
+
+## Configuration
+
+### AWS Configuration:
+- Update the AWS credentials in the ~/.aws/credentials file with your AWS access key and secret key.
+
+### Frontend Configuration:
+- Navigate to the client directory and create a .env file.
+- Set the necessary environment variables, such as REACT_APP_API_ENDPOINT for your AWS API Gateway endpoint.
